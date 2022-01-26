@@ -1,0 +1,246 @@
+html{
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px; /* Margin bottom by footer height */
+  background:  url("../bg/bg.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+@media (max-width: 576px) {
+    #footer{
+      margin-top: -90px; /* negative value of footer height */
+      height: 90px;
+    }
+    .footer-left a { font-size: 12px;
+    }
+    i {font-size: 0.8em; }
+    #icon-conts{
+      font-size: 0.8em;
+    }
+    #last-element {
+      margin-bottom: 70px;
+    }
+    .contact-logo-right {
+      height: 200px;
+      width: 200px;
+    }
+    #a-cont {
+      font-size: 12px;
+    }
+
+    
+}
+@media (min-width: 576px) {
+  #footer{
+    margin-top: -90px; /* negative value of footer height */
+    height: 90px;
+  }
+    .footer-left a { font-size: 13px;}
+    i {font-size: 1em; }
+    #icon-conts{
+      font-size: 1em;
+    }
+    #last-element {
+      margin-bottom: 70px;
+    }
+    .contact-logo-right {
+      height: 250px;
+      width: 250px;
+    }
+    #a-cont {
+      font-size: 14px;
+    }
+
+}
+
+@media (min-width: 768px) {
+  #footer{
+    margin-top: -100px; /* negative value of footer height */
+    height: 100px;
+  }
+  #last-element {
+    margin-bottom: 80px;
+  }
+  .footer-left a { font-size: 14px; }
+    i {font-size: 1.2em; }
+    #icon-conts{
+      font-size: 1.2em;
+    }
+    .contact-logo-right {
+      height: 300px;
+      width: 300px;
+    }
+    #a-cont {
+      font-size: 18px;
+    }
+    
+}
+@media (min-width: 992px) {
+  #footer{
+    margin-top: -110px; /* negative value of footer height */
+    height: 110px;
+  }
+  #last-element {
+    margin-bottom: 90px;
+  }
+  .footer-left a { font-size: 16px; }
+  i {font-size: 1.33em; }
+  #icon-conts{
+    font-size: 2em;
+  }
+  .contact-logo-right {
+    height: 450px;
+    width: 450px;
+  }
+  #a-cont {
+    font-size: 20px;
+  }
+}
+
+#home-first-ok {
+  height: 400px;
+  justify-content: center;
+}
+
+#last-element-home{
+  margin-bottom: 30px;
+} 
+
+
+/* Характеристики сделаны для навигационной панели */
+nav{ 
+  white-space: nowrap; 
+}
+#navul{ 
+  display: inline-block;
+  *display: inline; /* IE7 */
+  *zoom:1;  /* IE7 */ 
+  list-style: none;
+  width: 100%;
+}
+#navli{ 
+  display: inline-block;
+  *display: inline;
+  *zoom:1;
+  width: 33%;
+  color: #fff;
+  text-align: center;
+  margin-left: -4px;
+}
+#navli:first-child{
+  margin-left: 0;
+}
+
+  #wrap {
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    min-height: 100%;
+  }
+  
+  #main {
+    overflow:auto;
+    padding-bottom:120px; /* this needs to be bigger than footer height*/
+  }
+  
+  #footer {
+    position: absolute;
+    bottom: 0;
+    padding: 15px;
+    align-items: center;
+    clear:both;
+    color: #A3FCC8;
+    width: 100%;
+    justify-content: center;
+    background-color: #193A90;
+  } 
+
+  .useful-resources-box {
+    margin: 20px 0;
+  }
+  
+  .useful-resources-box .useful-list {
+    margin-top: 0px;
+  }
+  
+  .useful-resources-box .item-useful {
+    height: 180px;
+    background: #ccc;
+    border-top:3px solid #A3FCC8;
+    border-bottom:3px solid #A3FCC8;
+    border-left:3px solid #A3FCC8;
+    border-right:3px solid #A3FCC8;
+    overflow:auto;
+    margin-bottom: 30px;
+  }
+
+  .border-box {
+    display: flex;
+    height: 10px;
+    background-color: #A3FCC8;
+    justify-content: center;
+    align-self: center;
+    margin-bottom: 5px;
+  }
+
+#last-element-contact {
+  padding-bottom: 100px;
+}
+
+
+.card-deck {
+  padding: 50px;
+}
+
+
+.footer-left a{
+    color: #90BC90;
+    display: flex !important;
+    margin-right: 10px;
+}
+
+.footer-right a{
+    color: #90BC90;
+    display: flex !important;
+    margin-right: 10px;
+}
+
+.column-right{
+  float: right;
+  width: 35%;
+  padding-left: 20px;
+}
+.column-left{
+  width: 35%;
+  align-self: center;
+  align-content: center;
+  float: left;
+}
+
+.column-left i{
+  width: 15%;
+  color: #A3FCC8;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+#id-cont{
+  padding-right: 2px;
+  color: #A3FCC8;
+}
+
+p .card-text {
+ justify-content: center; 
+}

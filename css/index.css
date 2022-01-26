@@ -1,0 +1,161 @@
+.preview {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 450px;
+}
+.pre-item-first{
+    width: 50%;
+    background: url('../images/imgs/img3.jpg') no-repeat center;
+    background-size: cover;
+    height: inherit;
+}
+.pre-item-two {
+    width: 25%;
+    height: inherit;
+    background: url("../images/imgs/img2.jpg") no-repeat center;
+    background-size: cover;
+}
+.pre-item-three {
+    width: 25%;
+    height: inherit;
+    background: url("../images/imgs/img1.jpg") no-repeat center;
+    background-size: cover;
+}
+.maintop{
+    height: 420px;
+    width: 100%;
+    background: url("../images/Maintop.jpg") no-repeat center fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.maintop .box {
+    width: 1500px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.maintop-item {
+    width: 300px;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 5px 0 5px;
+    text-align: center;
+}
+.maintop-item .picture1 {
+    margin-top: 30px;
+    width: 80px;
+    height: 80px;
+    background: url("../images/icons/ps4.png") no-repeat center;
+    background-size: contain;
+
+}
+.maintop-item .picture2 {
+    margin-top: 30px;
+    width: 80px;
+    height: 80px;
+    background: url("../images/icons/xbox.png") no-repeat center;
+    background-size: contain;
+}
+.maintop-item .picture3 {
+    margin-top: 30px;
+    width: 80px;
+    height: 80px;
+    background: url("../images/icons/notebook.png") no-repeat center;
+    background-size: contain;
+}
+.maintop-item .picture4 {
+    margin-top: 30px;
+    width: 80px;
+    height: 80px;
+    background: url("../images/icons/wiu.png") no-repeat center;
+    background-size: contain;
+}
+.maintop-item .text-main {
+    margin-top: 20px;
+    font-size: 22px;
+    color: white;
+}
+.maintop-item .description {
+    font-size: 16px;
+    margin-top: 5px;
+    color: #888888;
+}
+
+@media only screen and (max-width: 1218px) {
+    /*--------------block - maintop------------------*/
+
+    .maintop {
+        height: 100%;
+        padding: 30px 20px 30px 20px;
+    }
+
+    .maintop .box {
+        width: 800px;
+        flex-wrap: wrap;
+        height: inherit;
+        justify-content: space-around;
+    }
+    .maintop-item .picture1 {
+        height: 62px;
+        width: 62px;
+    }
+    .maintop-item .picture2 {
+        height: 62px;
+        width: 62px;
+    }
+    .maintop-item .picture3 {
+        height: 62px;
+        width: 62px;
+    }
+    .maintop-item .picture4 {
+        height: 62px;
+        width: 62px;
+    }
+}
+@media only screen and (max-width: 1180px) {
+    .preview {
+        height: 100%;
+        flex-wrap: wrap;
+    }
+    .pre-item-first {
+        height: 500px;
+        width: 100%;
+
+    }
+    .pre-item-two {
+        width: 50%;
+        height: 300px;
+    }
+    .pre-item-three {
+        width: 50%;
+        height: 300px;
+    }
+}
+@media only screen and (max-width: 775px) {
+    .pre-item-first {
+        height: 388px;
+    }
+    .pre-item-two {
+        height: 230px;
+    }
+    .pre-item-three {
+        height: 230px;
+    }
+    .main {
+        font-size: 17px;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    footer .container {
+        margin-left: 10px;
+    }
+}
+    
